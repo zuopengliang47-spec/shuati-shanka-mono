@@ -1,0 +1,33 @@
+# 依赖与构建产物
+node_modules/
+dist/
+dist-native/
+*.local
+.DS_Store
+Thumbs.db
+
+# 内置题库 JSON 含第三方真题，不入库；仅保留空清单占位
+public/decks/*.json
+!public/decks/index.json
+
+# Capacitor / Android 生成物
+android/.gradle/
+android/build/
+android/app/build/
+android/capacitor-cordova-android-plugins/
+android/app/src/main/assets/public/
+android/app/src/main/assets/capacitor.config.json
+android/app/src/main/assets/capacitor.plugins.json
+android/app/src/main/res/xml/config.xml
+android/local.properties
+
+# 签名文件绝不入库
+android/keystore/
+android/keystore.properties
+*.apk
+*.aab
+*.jks
+*.keystore
+
+# 截图（可能含题目内容）
+screenshot-*.png

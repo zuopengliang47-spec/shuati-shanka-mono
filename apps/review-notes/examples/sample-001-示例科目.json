@@ -1,0 +1,33 @@
+{
+  "code": "000-EXAMPLE",
+  "name": "示例科目",
+  "questions": [
+    {
+      "type": "single",
+      "stem": "本项目的题库输入文件使用什么格式？",
+      "options": ["JSON", "CSV", "XML", "YAML"],
+      "answer": ["A"]
+    },
+    {
+      "type": "multi",
+      "stem": "以下哪些题型是内置支持的？",
+      "options": ["单选题", "多选题", "判断题", "填空题", "问答题"],
+      "answer": ["A", "B", "C", "D", "E"]
+    },
+    {
+      "type": "judge",
+      "stem": "选择题速记版会保留原始选项。",
+      "answer": ["错误"]
+    },
+    {
+      "type": "blank",
+      "stem": "输入 JSON 里必须包含一个名为 ______ 的数组。",
+      "answer": ["questions"]
+    },
+    {
+      "type": "card",
+      "stem": "简述如何新增一个科目。",
+      "answer": ["在 --src 目录里新增一个符合输入格式的 json 文件即可，无需改代码。"]
+    }
+  ]
+}

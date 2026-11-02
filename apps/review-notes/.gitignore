@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+*.tmp
+
+# 生成的资料 / 题库数据（含第三方内容，不入库）
+outputs/
+data/
+*.docx
+*.zip
+*.json
+!examples/*.json

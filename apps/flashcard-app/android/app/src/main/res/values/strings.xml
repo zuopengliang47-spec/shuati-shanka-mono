@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">闪卡刷题</string>
+    <string name="title_activity_main">闪卡刷题</string>
+    <string name="package_name">cn.xiaoheihe.flashcards</string>
+    <string name="custom_url_scheme">cn.xiaoheihe.flashcards</string>
+</resources>
